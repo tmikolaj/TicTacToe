@@ -11,7 +11,7 @@ protected:
     std::vector<std::pair<int, int>> checkForWinningMove() override;
 public:
     easyBot(std::shared_ptr<std::vector<std::vector<char>>> tictactoeBoard);
-    ~easyBot() override;
+    ~easyBot() override = default;
 
     void makeMove() override;
 };

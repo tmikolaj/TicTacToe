@@ -9,7 +9,7 @@
 class bot {
 protected:
     virtual std::vector<std::pair<int, int>> analyzeBoard() = 0;
-    virtual std::vector<std::pair<int, int>> checkForWinningMove();
+    virtual std::vector<std::pair<int, int>> checkForWinningMove() = 0;
 public:
     bot() = default;
     virtual ~bot() = default;

@@ -1,7 +1,6 @@
 #ifndef GAMEMANAGER_H
 #define GAMEMANAGER_H
 
-#include <iostream>
 #include <vector>
 
 class GameManager {
@@ -12,7 +11,7 @@ public:
     GameManager() = default;
     ~GameManager() = default;
     void playRound(bool& isXturn);
-    bool winCheck(std::vector<std::vector<char>> board);
+    bool winCheck(std::vector<std::vector<char>> board, bool isXturn);
 };
 
 

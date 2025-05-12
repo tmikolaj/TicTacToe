@@ -8,4 +8,6 @@ add_executable(Tic_Tac_Toe main.cpp
         Bots/easyBot.cpp
         Bots/easyBot.h
         Game/GameManager.cpp
-        Game/GameManager.h)
+        Game/GameManager.h
+        Bots/impossibleBot.cpp
+        Bots/impossibleBot.h)
